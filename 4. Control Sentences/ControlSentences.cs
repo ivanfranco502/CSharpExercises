@@ -58,7 +58,7 @@ namespace CSharpExercises
             // Tiene un valor por defecto
             // y se pueden agrupar condiciones
             string[,] alumnos = new string [,] { 
-                {"Nahuel", "35"},
+                {"Nahuel", "30"},
                 {"Emiliano", "37"},
                 {"Federico", "45"},
                 {"Lorena", "21"},
@@ -70,17 +70,17 @@ namespace CSharpExercises
                 {"Facundo", "24"},
                 {"Leandro", "26"}
             };
-            string nombreAlumno = alumnos[0, 0];
+            int edadAlumnoNahuel = Int32.Parse(alumnos[0,1]);
             
-            switch(nombreAlumno){
-                case "Nahuel":
-                    //ES NAHUEL
+            switch(edadAlumnoNahuel){
+                case int val when val < 25: 
+                    Console.WriteLine("Primer grupo");
                     break;
-                case "Abel":
-                    //ES ABEL
+                case int val when val < 35:
+                    Console.WriteLine("Segundo grupo");
                     break;
                 default:
-                    //ES OTRO ALUMNO
+                    Console.WriteLine("Tercer grupo");
                     break;
             }
         }

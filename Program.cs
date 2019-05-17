@@ -32,7 +32,7 @@ namespace CSharpExercises
                 case "4":
                     //4. 
                     ControlSentencesExercises control = new ControlSentencesExercises();
-                    control.ForEach();
+                    control.Switch();
                     break;
 
                 case "5":
