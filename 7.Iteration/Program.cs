@@ -8,6 +8,7 @@ namespace _7.Iteration
         {
             Solution sol = new Solution();
 
-            sol.solution(1041);        }
+            Console.WriteLine(sol.solution(1041));
+            Console.Read();
     }
 }
