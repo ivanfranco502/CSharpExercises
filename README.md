@@ -7,3 +7,4 @@ Licenciatura .NET ejercicios de todos los temas
 4. System.Array
 5. String
 6. Constants
+7. Binary Gap - Iteration exercise
