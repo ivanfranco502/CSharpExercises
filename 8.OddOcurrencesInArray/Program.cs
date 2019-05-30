@@ -6,7 +6,9 @@ namespace _8.OddOcurrencesInArray
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Solution sol = new Solution();
+            int[] array = new[]{9,3,9,3,9,7,9};
+            Console.WriteLine($"Result: {sol.solution(array)}");
         }
     }
 }
