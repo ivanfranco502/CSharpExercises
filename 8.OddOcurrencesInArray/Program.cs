@@ -9,6 +9,10 @@ namespace _8.OddOcurrencesInArray
             Solution sol = new Solution();
             int[] array = new[]{9,3,9,3,9,7,9};
             Console.WriteLine($"Result: {sol.solution(array)}");
+            array = new[]{9,9,7,3,3};
+            Console.WriteLine($"Result: {sol.solution(array)}");
+            array = new[]{9,9,9,5,7,7,3,3};
+            Console.WriteLine($"Result: {sol.solution(array)}");
         }
     }
 }
